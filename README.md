@@ -1,13 +1,19 @@
 Teste - Netshoes - André Meira.
-===============================
+=================
+
+
+O que é isso?
+-------------
+
+Esse projeto é um teste, que faz parte do processo seletivo da NetShoes.
 
 
 Instalação
 ----------
 
-1.  Instale o [Bower](http://bower.io/). No terminal, digite `bower install`
-2.  Instale o [gulp](http://gulpjs.com/). No terminal, digite `npm install` e
-    depois `gulp`
+1.  Instale o [Node.js](https://nodejs.org/). Depois digite no terminal
+    `npm install`
+2.  Instale o [gulp](http://gulpjs.com/). Depois digite no terminal `gulp`
 
 
 Estrutura do diretório

@@ -1,0 +1,32 @@
+{
+  "lang": "pt-BR",
+  "name": "{Nome comprido}",
+  "short_name": "{Nome curto}",
+  "description": "{Descrição}",
+  "icons": [
+    {
+      "src": "assets/images/favicon-48x48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "assets/images/favicon-144x144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "assets/images/favicon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "assets/images/favicon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#000",
+  "theme_color": "#000",
+  "display": "standalone",
+  "start_url": "/?utm_source=homescreen"
+}
