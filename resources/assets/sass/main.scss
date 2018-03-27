@@ -1,0 +1,81 @@
+$navbar-default-bg:#fff;
+$navbar-default-border:#fff;
+$navbar-margin-bottom: 0;
+$navbar-default-link-active-color:#fff;
+$navbar-default-link-active-bg:none;
+$navbar-default-link-color:#fff;
+$navbar-default-link-hover-color:#FFF;
+$navbar-default-link-hover-bg:none;
+$nav-link-hover-bg: none;
+$menu-default-bg: #184083;
+
+@import 'bootstrap-sass/assets/stylesheets/bootstrap';
+/*@import 'slick-carousel/slick/slick.scss';
+
+$slick-font-path: "../fonts/";
+$slick-loader-path: "../images/";
+@import 'slick-carousel/slick/slick-theme.scss';*/
+
+/*@import 'components/header';
+@import 'components/sobre';
+@import 'components/produtos';
+@import 'components/assistencia';
+@import 'components/news';
+@import 'components/noticias';
+@import 'components/footer';
+@import 'components/contato';
+@import 'components/duvidas';
+@import 'components/trabalhe';
+@import 'components/central';
+@import 'components/comparar';
+@import 'components/comprar';
+@import 'components/busca';
+@import 'components/responsive-tables';*/
+
+
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.boxProduto{
+    a{
+        display: block;
+        color: #000;
+        text-transform: capitalize;
+        font-size: 14px;
+        margin: 5px 0;
+        text-align: left;
+        height: auto;
+        min-height: 33px;
+        &{
+            text-decoration: none;
+        }
+    }
+
+    hr{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 0;
+        border-top: 3px solid #dfbd00;
+        width: 5%;
+    }
+
+    .product-name{
+        width: 100%;
+        max-width: 65%;
+        margin: 15px auto;
+    }
+
+    .price strong{
+        font-size: 24px;
+    }
+
+    .pagamento{
+        color: #999999;
+        font-weight: 600;
+    }
+}
