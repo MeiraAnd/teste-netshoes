@@ -17,7 +17,7 @@ Instalação
 
 3.  Instale todas as dependências. Para isso digite no terminal npm install e o nome da dependência.
 
-4.  Para subir o servidor em node, digite no terminal o comando: http-server, abra o navegador, em uma url localhost, o terminal vai indicar qual porta está disponivel.
+4.  Para subir o servidor em node, digite no terminal o comando:npm install http-server -g e depois http-server, abra o navegador, em uma url localhost, o terminal vai indicar qual porta está disponivel.
 
 Estrutura do diretório
 ----------------------
