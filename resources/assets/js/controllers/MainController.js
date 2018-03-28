@@ -90,7 +90,7 @@ app.controller('MainController', ['$scope', function($scope) {
       "currencyFormat": "R$",
       "isFreeShipping": false
     }
-  ]
+  ];
 
 
   //Carrinho

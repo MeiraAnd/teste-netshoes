@@ -1,5 +1,5 @@
 Teste - Netshoes - André Meira.
-=================
+===============================
 
 
 O que é isso?
@@ -18,6 +18,8 @@ Instalação
 3.  Instale todas as dependências. Para isso digite no terminal npm install e o nome da dependência.
 
 4.  Para subir o servidor em node, digite no terminal o comando:npm install http-server -g e depois http-server, abra o navegador, em uma url localhost, o terminal vai indicar qual porta está disponivel.
+
+5. Na index.html nas dependências é preciso chamar o caminho da sua máquina.
 
 Estrutura do diretório
 ----------------------
