@@ -1,5 +1,7 @@
 app.controller('MainController', ['$scope', function($scope) { 
 
+
+  //json lista de produtos
   $scope.products = [
     {
       "id": 0,
@@ -87,51 +89,45 @@ app.controller('MainController', ['$scope', function($scope) {
       "currencyId": "BRL",
       "currencyFormat": "R$",
       "isFreeShipping": false
-    },
-    {
-      "id": 6,
-      "sku": 6090484789343891,
-      "cover": 'http://localhost/testes/teste-netshoes/resources/assets/images/img-modelo-1.jpg',
-      "title": "Calção Nike Corinthians",
-      "description": "Goleiro 13/14",
-      "availableSizes": ["GG", "GGG"],
-      "style": "Branco",
-      "price": 49.90,
-      "installments": 0,
-      "currencyId": "BRL",
-      "currencyFormat": "R$",
-      "isFreeShipping": true
-    },
-
-    {
-      "id": 7,
-      "sku": 18532669286405342,
-      "cover": 'http://localhost/testes/teste-netshoes/resources/assets/images/img-modelo-7.jpg',
-      "title": "Camisa Corinthians Réplica",
-      "description": "1977 Infantil",
-      "availableSizes": ["S"],
-      "style": "Preto com listras brancas",
-      "price": 109.9,
-      "installments": 4,
-      "currencyId": "BRL",
-      "currencyFormat": "R$",
-      "isFreeShipping": true
-    },
-
-    {
-      "id": 8,
-      "sku": 5619496040738316,
-      "cover": 'http://localhost/testes/teste-netshoes/resources/assets/images/img-modelo-8.jpg',
-      "title": "Calção Nike Strike Lgr Woven",
-      "description": "",
-      "availableSizes": ["GG"],
-      "style": "Azul escuro",
-      "price": 119.9,
-      "installments": 4,
-      "currencyId": "BRL",
-      "currencyFormat": "R$",
-      "isFreeShipping": false
     }
-  ];
+  ]
+
+
+  //Carrinho
+  $scope.carrinho = [];
+
+  $scope.comprar = function(_item){
+
+    $scope.carrinho.push(_item);
+
+  }
+
+  //Faz a soma do total de valor de compras
+  $scope.total = function(){
+
+    var total = 0;
+
+    for(item of $scope.carrinho){
+
+      total += item.price;
+    }
+    
+    return total;
+  }
+
+  //Remove item do carrinho
+  $scope.removeItem = function (x) {
+      //$scope.errortext = "";    
+      $scope.carrinho.splice(x, 1);
+  }
   
+
+   //Mostra e esconde carrinho
+    $scope.IsVisible = false;
+    $scope.ShowHide = function () {
+        //If DIV is visible it will be hidden and vice versa.
+        $scope.IsVisible = $scope.IsVisible ? false : true;
+    }
+
+
 }]);
