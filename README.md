@@ -17,7 +17,7 @@ Instalação
 
 3.  Instale todas as dependências. Para isso digite no terminal nmo install e o nome da dependência.
 
-4.  Para subir o servidor em node, digite no terminal o comando: http-server, abra o navegador a url local, será: http://localhost:8080/#
+4.  Para subir o servidor em node, digite no terminal o comando: http-server, abra o navegador, em uma url localhost, o terminal vai indicar qual porta está disponivel.
 
 Estrutura do diretório
 ----------------------
