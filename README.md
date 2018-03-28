@@ -15,7 +15,7 @@ Instalação
 
 2.  Instale o [gulp](http://gulpjs.com/). Depois digite no terminal `gulp`
 
-3.  Instale todas as dependências. Para isso digite no terminal nmo install e o nome da dependência.
+3.  Instale todas as dependências. Para isso digite no terminal npm install e o nome da dependência.
 
 4.  Para subir o servidor em node, digite no terminal o comando: http-server, abra o navegador, em uma url localhost, o terminal vai indicar qual porta está disponivel.
 
